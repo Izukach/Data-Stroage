@@ -1,0 +1,136 @@
+.overall-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(2, 2, 54);
+  align-items: center;
+  height: 573px;
+}
+
+.first-container {
+  background-color: rgb(75, 75, 171);
+  height: 287px;
+  width: 435px;
+  border-radius: 20px 143px 20px 20px;
+}
+.first-container-sub-div {
+  /* background-color: antiquewhite; */
+  /* background-color: antiquewhite; */
+  width: 299px;
+  height: 210px;
+
+  padding-top: 55px;
+  padding-left: 17px;
+}
+
+.img-header-div {
+  /* background-color: aquamarine; */
+  height: 85px;
+  width: 261px;
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+}
+#img-header-photo {
+  width: 55px;
+  height: 44px;
+}
+
+h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+/* ********folder section******* */
+.folder-container {
+  /* background-color: brown; */
+  width: 100%;
+  height: 119px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10px;
+}
+
+.folder-one-container {
+  background-color: rgb(13, 13, 70);
+  width: 57px;
+  height: 66px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.folder-one {
+  width: 39px;
+  height: 29px;
+  /* margin: 0 auto; */
+  margin-top: 20px;
+  position: relative;
+  background-color: #708090;
+  border-radius: 0 6px 6px 6px;
+  box-shadow: 4px 4px 7px rgb(0 0 0 / 59%);
+}
+
+.folder-one:before {
+  content: "";
+  width: 50%;
+  height: 12px;
+  border-radius: 0 20px 0 0;
+  background-color: #708090;
+  position: absolute;
+  top: -4px;
+  left: 0px;
+}
+/* ******** second container******* */
+
+.second-container {
+  background-color: rgb(75, 75, 171);
+  width: 500px;
+  height: 216px;
+  border-radius: 10px;
+  margin-top: 62px;
+}
+
+.text-tube-container {
+  /* background-color: #f44336; */
+  width: 465px;
+  height: 85px;
+  padding-left: 14px;
+  padding-top: 27px;
+}
+.tube-one {
+  background-color: rgb(14, 14, 46);
+  height: 11px;
+  width: 461px;
+  border-radius: 10px;
+}
+
+.tube-two {
+  background-color: rgb(243, 133, 151);
+  height: 11px;
+  width: 323px;
+  border-radius: 10px;
+}
+.tube-three {
+  background-color: white;
+  height: 9px;
+  width: 9px;
+  border-radius: 10px;
+  float: right;
+}
+
+span {
+  color: white;
+}
+
+p {
+  color: rgb(154, 154, 213);
+}
+/* *****second content container */
+#span1 {
+  margin-top: 7px;
+  float: left;
+}
+#span2 {
+  margin-top: 7px;
+  float: right;
+}
